@@ -7,7 +7,7 @@
   "author": "Thom van Hal <thom@thvmh.nl>",
   "license": "MIT",
   "config": {
-	"serviceURL": "https://trello.com/login",
+	"serviceURL": "https://trello.com/",
     "serviceName": "Trello",
     "message": "",
     "popup": [],
