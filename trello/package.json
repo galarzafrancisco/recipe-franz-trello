@@ -1,0 +1,24 @@
+{
+  "id": "trello",
+  "name": "Trello",
+  "version": "0.0.1",
+  "description": "Trello",
+  "main": "index.js",
+  "author": "Thom van Hal <thom@thvmh.nl>",
+  "license": "MIT",
+  "config": {
+	"serviceURL": "https://trello.com/login",
+    "serviceName": "Trello",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
