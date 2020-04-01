@@ -1,3 +1,9 @@
+setTimeout(() => {
+  if (window.location.href.includes('not-supported.html')) {
+    window.location.href = window.location.origin;
+  }
+}, 10);
+
 module.exports = (Franz) => {
   const getMessages = function getMessages() {
     const notifications = document.querySelectorAll('.new-notifications');
