@@ -6,9 +6,9 @@ setTimeout(() => {
 
 module.exports = (Franz) => {
   const getMessages = function getMessages() {
-    const notifications = document.querySelectorAll('.new-notifications');
+    const notifications = document.querySelector('[data-test-id="header-notifications-button"]._3W-zkl4-bnVKzJ');
 
-    Franz.setBadge(0, (notifications.length >= 1) ? 1 : 0);
+    Franz.setBadge(0, notifications ? 1 : 0);
   };
 
   Franz.loop(getMessages);
